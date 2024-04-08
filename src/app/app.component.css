@@ -1,0 +1,35 @@
+.item {
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: blueviolet;
+    /* margin-top: 1rem; */
+    text-align: center;
+    padding: 1rem 1rem;
+    list-style-type: none;
+    display: flex;
+    margin-top: 5px;
+    align-items: center;
+    justify-content: center;
+    transition: width 0.3s ease, height 0.3s ease; 
+    font-family:'Lucida Sans';
+}
+
+.item:hover {
+    width: 210px;
+    height: 60px;
+}
+
+.content {
+    width: 300px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.title {
+    margin-left: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+}
